@@ -157,3 +157,71 @@ def game():
 
 if __name__ == "__main__":
     game()
+
+
+ | |
+-+-+-
+ | |
+-+-+-
+ | |
+The value of move: 5
+Value of count  1
+Value of i  0
+ | |
+-+-+-
+ |X|
+-+-+-
+ | |
+It's Your turn, O Move to which place?
+1
+Value of count  2
+Value of i  1
+ | |
+-+-+-
+ |X|
+-+-+-
+O| |
+The value of move: 6
+Value of count  3
+Value of i  2
+ | |
+-+-+-
+ |X|X
+-+-+-
+O| |
+It's Your turn, O Move to which place?
+4
+Value of count  4
+Value of i  3
+ | |
+-+-+-
+O|X|X
+-+-+-
+O| |
+The value of move: 7
+Value of count  5
+Value of i  4
+X| |
+-+-+-
+O|X|X
+-+-+-
+O| |
+It's Your turn, O Move to which place?
+8
+Value of count  6
+Value of i  5
+X|O|
+-+-+-
+O|X|X
+-+-+-
+O| |
+The value of move: 3
+Value of count  7
+Value of i  6
+X|O|
+-+-+-
+O|X|X
+-+-+-
+O| |X
+Game Over
+*** X won
