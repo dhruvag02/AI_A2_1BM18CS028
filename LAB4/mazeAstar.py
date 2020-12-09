@@ -106,21 +106,28 @@ def search(maze, cost, start, end):
 
 
 if __name__ == '__main__':
-    maze = [[0, 1, 0, 0, 0, 0],
-            [0, 0, 0, 0, 0, 0],
-            [0, 1, 0, 1, 0, 0],
-            [0, 1, 0, 0, 1, 0],
-            [0, 0, 0, 0, 1, 0]]
+    maze = []
+    r = int(input("Enter number of rows "))
+    for i in range(r):
+        row = list(map(int, input().split()))
+        maze.append(row)
 
-    start = [0, 0]
-    end = [4, 5]
+    start = []
+    end = []
+    n = 2
+    print("Enter start state")
+    for i in range(0, n):
+        ele = int(input())
+        start.append(ele)
+
+    print("Enter end state")
+    for j in range(0, n):
+        val = int(input())
+        end.append(val)
+    
     cost = 1
     path = search(maze, cost, start, end)
-    print([[0, 1, 0, 0, 0, 0],
-           [0, 0, 0, 0, 0, 0],
-           [0, 1, 0, 1, 0, 0],
-           [0, 1, 0, 0, 1, 0],
-           [0, 0, 0, 0, 1, 0]])
+    print(maze)
     print('\n')
 
     print(path)
